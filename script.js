@@ -7,7 +7,7 @@ function nextImage(el){
 	} else if (el.src.match("images/alice3.PNG")){
 		el.src = "images/scene4.jpg";
 	} else {
-		el.src = "images/alice.jpg";
+		el.src = "images/alice.PNG";
 	}
 }
 /* alice3-scene4-alice-alice2*/
