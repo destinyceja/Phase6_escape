@@ -1,0 +1,49 @@
+<!-- notice how both the opening <html> tag and the closing </html> tag are NOT indented so you can clearly see the start and end of the code -->
+<html>
+	
+	<!-- the <head> section is for all the information that is needed by the browser but does NOT show up on the page -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Displaying Rows & Columns</title>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+
+	<!-- the <body> section is for all the content that is actually displayed on the page -->
+	<body>
+		<div class="first purple">
+			<div class="smallbox aa">
+			</div>
+			<div class="smallbox bb">
+			</div>
+			<div class="smallbox cc">
+			</div>
+		</div>
+		<div class="second gold">
+		    <div class="smallbox ee" >
+			<img src="images/alice.PNG" class="restrict" class="center-content" onclick="nextImage(this)"/>
+			</div>
+			<div class="smallbox dd">
+			<img src="images/alice3.PNG" class="restrict" onclick="nextImage2(this)"/>
+			</div>
+			<div class="smallbox ff">
+			<img src="images/alice2.PNG" class="restrict" onclick="nextImage3(this)"/>
+			</div>
+		</div>
+		<div class="third slate">
+		    <div class="smallbox hh">
+			<img src="images/alice2.PNG" class="restrict" onclick="nextImage4(this)"/>
+			</div>
+			<div class="smallbox ii">
+			<img src="images/alice.PNG" class="restrict" onclick="nextImage5(this)"/>
+			</div>
+			<div class="smallbox gg">
+			<img src="images/alice3.PNG" class="restrict" onclick="nextImage6(this)"/>
+			</div>
+		</div>
+		<div class="fourth pink">
+			<img src="images/key.PNG" class="restrict"/>
+		</div>
+			<script src="script.js"></script>
+	</body>
+</html>

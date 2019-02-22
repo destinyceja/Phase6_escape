@@ -1,0 +1,86 @@
+body {
+	display:block;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+}
+/* When writing CSS classes it is VERY important that you use hyphen delimited strings (square-div and NOT squareDiv) */
+/* Addtionally, you should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+/* When thinking about sizing elements on your page, there are many different units you can use = https://www.w3schools.com/cssref/css_units.asp */
+.first {
+	display:flex;
+	height: 15%;
+	width: 100%;
+
+}
+.second {
+	display:flex;
+	height: 30%;
+	width: 100%;
+}
+.third {
+	display:flex;
+	width:100%;
+	height: 30%;
+}
+.fourth {
+	width:100%;
+	height: 25%;
+}
+.smallbox{
+	width: calc(100%/3);
+	height: 100%;
+	background-color: #6495ED;
+}
+
+/* When possible, organize CSS classes in alphabetical order */
+.gold {
+	background-color: #AF95B1;
+}
+
+.purple {
+	background-color: #5D3D5F;
+}
+.slate {
+	background-color: #7D4D81;
+}
+.pink {
+	background-color: #D8BFD8;
+}
+.aa {
+	background-color: #B28FC2;
+}
+.bb{
+	background-color: #5BB9C9;
+}
+.cc{
+	background-color: #97459A;
+}
+.dd{
+	background-color: #967FAB;
+}
+.ee{
+	background-color: #B0E0E6;
+}
+.ff{
+	background-color: #B3907D;
+}
+.gg{
+	background-color: #ccccff;
+}
+
+.hh{
+	background-color: #C57791;
+}
+.ii{
+	background-color: #937494;
+}
+.restrict {
+	max-height: 100%;
+	max-width: 100%;
+}
+.center-content {
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
