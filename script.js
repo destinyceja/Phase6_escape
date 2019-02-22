@@ -5,7 +5,7 @@ function nextImage(el){
 	} else if (el.src.match("images/alice2.PNG")){
 		el.src = "images/alice3.PNG";
 	} else if (el.src.match("images/alice3.PNG")){
-		el.src = "images/scene4.JPG";
+		el.src = "images/scene4.jpg
 	} else {
 		el.src = "images/alice.PNG";
 	}
@@ -13,8 +13,8 @@ function nextImage(el){
 /* alice3-scene4-alice-alice2*/
 function nextImage2(el){
 	if (el.src.match("images/alice3.PNG")){
-	  el.src = "images/scene4.JPG";
-	} else if (el.src.match("images/scene4.JPG")){
+	  el.src = "images/scene4.jpg
+	} else if (el.src.match("images/scene4.jpg{
 		el.src = "images/alice.PNG";
 	} else if (el.src.match("images/alice.PNG")){
 		el.src = "images/alice2.PNG";
@@ -27,8 +27,8 @@ function nextImage3(el){
 	if (el.src.match("images/alice2.PNG")){
 	  el.src = "images/alice3.PNG";
 	} else if (el.src.match("images/alice3.PNG")){
-		el.src = "images/scene4.JPG";
-	} else if (el.src.match("images/scene4.JPG")){
+		el.src = "images/scene4.jpg";
+	} else if (el.src.match("images/scene4.jpg")){
 		el.src = "images/alice.PNG";
 	} else {
 		el.src = "images/alice2.PNG";
@@ -37,8 +37,8 @@ function nextImage3(el){
 /* alice3-scene4-alice-alice2*/
 function nextImage4(el){
 	if (el.src.match("images/alice3.PNG")){
-	  el.src = "images/scene4.JPG";
-	} else if (el.src.match("images/scene4.JPG")){
+	  el.src = "images/scene4.jpg";
+	} else if (el.src.match("images/scene4.jpg")){
 		el.src = "images/alice.PNG";
 	} else if (el.src.match("images/alice.PNG")){
 		el.src = "images/alice2.PNG";
@@ -53,20 +53,20 @@ function nextImage5(el){
 	} else if (el.src.match("images/alice3.PNG")){
 		el.src = "images/alice.PNG";
 	} else if (el.src.match("images/alice.PNG")){
-		el.src = "images/scene4.JPG";
+		el.src = "images/scene4.jpg";
 	} else {
 		el.src = "images/alice2.PNG";
 	}
 }
 /* scene4-alice-alice2-alice3*/
 function nextImage6(el){
-	if (el.src.match("images/scene4.JPG")){
+	if (el.src.match("images/scene4.jpg")){
 	  el.src = "images/alice.PNG";
 	} else if (el.src.match("images/alice.PNG")){
 		el.src = "images/alice2.PNG";
 	} else if (el.src.match("images/alice2.PNG")){
 		el.src = "images/alice3.PNG";
 	} else {
-		el.src = "images/scene4.JPG";
+		el.src = "images/scene4.jpg";
 	}
 }
