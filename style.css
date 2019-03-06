@@ -78,6 +78,7 @@ body {
 .restrict {
 	max-height: 100%;
 	max-width: 100%;
+	border-radius: 50%;
 }
 .center-content {
 	flex-direction: row;
